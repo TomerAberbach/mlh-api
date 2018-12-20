@@ -112,7 +112,7 @@ module.exports.user = () =>
   })
 
 /**
- * Returns a promise containing a users paging object. clientId and clientSecret
+ * Returns a promise containing a users objects. clientId and clientSecret
  * must have been set using the configure method for the url to be valid.
  *
  * Please visit the MLH API documentation for more information:
