@@ -52,8 +52,7 @@ module.exports.authorizationCodeUrl = scopes => authorizationUrl('code', scopes)
 /**
  * Acquires an access token using the provided authorization code and returns
  * a promise which is resolved once the access token has been set. The access
- * token is not returned in the promise because it is used automatically in
- * other methods.
+ * token is returned in case it is needed.
  *
  * Please visit the MLH API documentation for more information:
  * https://my.mlh.io/docs
@@ -75,6 +74,7 @@ module.exports.accessTokenFromAuthorizationCode = code =>
     json: true
   }).then(res => {
     options.accessToken = res['access_token']
+    return options.accessToken
   })
 
 /**
