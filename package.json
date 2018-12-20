@@ -1,0 +1,36 @@
+{
+  "name": "mlh-api",
+  "version": "1.0.0",
+  "author": "Tomer Aberbach <tomeraberbach@gmail.com> (https://tomeraberba.ch)",
+  "description": "A wrapper for the Major League Hacking (MLH) API.",
+  "keywords": [
+    "mlh",
+    "api",
+    "wrapper",
+    "hackathon",
+    "hacker"
+  ],
+  "homepage": "https://github.com/TomerAberbach/mlh-api",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TomerAberbach/mlh-api.git"
+  },
+  "bugs": {
+    "url": "https://github.com/TomerAberbach/mlh-api/issues"
+  },
+  "license": "MIT",
+  "files": [
+    "index.js"
+  ],
+  "main": "index.js",
+  "scripts": {
+    "test": "standard && mocha"
+  },
+  "dependencies": {
+    "request": "^2.88.0",
+    "request-promise-native": "^1.0.5"
+  },
+  "devDependencies": {
+    "standard": "*"
+  }
+}
