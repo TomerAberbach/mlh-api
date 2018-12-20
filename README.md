@@ -1,6 +1,6 @@
 # Gulp Windowed
 
-[![NPM version](https://img.shields.io/npm/v/mlh-api.svg)](https://www.npmjs.com/package/mlh-api) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
+[![NPM version](https://img.shields.io/npm/v/mlh-api.svg)](https://www.npmjs.com/package/mlh-api)
 
 > A wrapper for the Major League Hacking (MLH) API.
 

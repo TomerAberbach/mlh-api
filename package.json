@@ -23,14 +23,8 @@
     "index.js"
   ],
   "main": "index.js",
-  "scripts": {
-    "test": "standard && mocha"
-  },
   "dependencies": {
     "request": "^2.88.0",
     "request-promise-native": "^1.0.5"
-  },
-  "devDependencies": {
-    "standard": "*"
   }
 }
